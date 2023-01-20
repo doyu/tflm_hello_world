@@ -20,7 +20,7 @@ This time, we'll add training part as WebApp (e.g. [streamlist](https://streamli
 2. Convert the above training JN to a WebApp with streamlit
 3. Run a WebApp container in docker-compose(?)
 4. Run a "Hello world" container in docker-compose
-5. Let a "Hello world" container send data to a WebApp container via UDP? (e.g. [netcat->file](https://www.digitalocean.com/community/tutorials/how-to-use-netcat-to-establish-and-test-tcp-and-udp-connections))
+5. Let a "Hello world" container send data to a WebApp container via simple UDP? (e.g. [netcat-> a CSV file or FIFO?](https://www.digitalocean.com/community/tutorials/how-to-use-netcat-to-establish-and-test-tcp-and-udp-connections))
 6. Observe "Hello world" predictions on a WebApp CUI(?)
 7. Display "Hello world" prediction on a WebApp GUI at realtime?
 8. Add acceptance test & coverage for the above
