@@ -42,7 +42,7 @@ You can skip training part for now. You need the following steps:
 
 Please feel free to edit this document to share information with others correctly.
 
-# Sprint 2+
+# Backlog?
 - Convert to a complete TinyML on a VM?  
 - Try other ML model?
 - Try real HW?
