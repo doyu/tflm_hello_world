@@ -16,17 +16,17 @@ in Docker automatically, hooked in CI (Github workflow). You'll implement the fo
 This time, we'll add training part as WebApp (e.g. [streamlist](https://streamlit.io/)) as Cloud ML.
 [This blog](https://blog.devgenius.io/testing-streamlit-a1f1fd48ce8f) helps to implement the following.
 
-1. Train with Jupyter notebook (JN) manucally as explained in TFLm webpage
-2. Convert JN to a WebApp with streamlit
-3. Run a WebApp in docker-compose(?)
-4. Run "Hello world" in docker-compose
-5. Let "Hello world" send data to a WebApp via UDP? (e.g. [netcat->file](https://www.digitalocean.com/community/tutorials/how-to-use-netcat-to-establish-and-test-tcp-and-udp-connections))
-6. Observe "Hello world" prediction on a WebApp 
-7. Display "Hello world" prediction on a WebApp at realtime?
-8. Add acceptance test & coverage
-9. Dockerize the above all, except Jupyter notebook
+1. Train "Hello world" with Jupyter notebook (JN) as instructed in TFLm webpage, recommended to all.
+2. Convert the above training JN to a WebApp with streamlit
+3. Run a WebApp container in docker-compose(?)
+4. Run a "Hello world" container in docker-compose
+5. Let a "Hello world" container send data to a WebApp container via UDP? (e.g. [netcat->file](https://www.digitalocean.com/community/tutorials/how-to-use-netcat-to-establish-and-test-tcp-and-udp-connections))
+6. Observe "Hello world" predictions on a WebApp CUI(?)
+7. Display "Hello world" prediction on a WebApp GUI at realtime?
+8. Add acceptance test & coverage for the above
+9. make sure Dockerization of the above all, except JN. (docker-compose?)
 10. Hook a PR in CI / CD with Github workflow
-11. Display the result on Github page
+11. Display the CI result on Github page
   
 
 # Sprint 0
